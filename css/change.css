@@ -1,0 +1,32 @@
+/* insert background iamge for bio part */
+#header {
+  background-color: #4A4A4A;
+  background-image: url("../images/background.jpg");
+  background-position: bottom right;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+#menu li {
+    font: bold 18px sans-serif;
+    display: inline-block;
+    margin-right: -5px;
+    position: relative;
+    padding: 15px 15px;
+    background: radial-gradient(black, #4A4A4A);
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+    -o-transiton:all 0.3s;
+}
+
+#menu li:hover {
+    background: white;
+    color: white;
+}
+
+li a {
+  margin-top: 0px;
+  color: #F5A623;
+}
